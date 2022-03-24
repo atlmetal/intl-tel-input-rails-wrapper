@@ -1,5 +1,4 @@
-require_relative 'intl-tel-input/version'
-# require_relative 'lib/intl/tel/input/rails/wrapper/version'
+require_relative 'lib/intl-tel-input/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'intl-tel-input-rails-wrapper'
@@ -16,9 +15,11 @@ Gem::Specification.new do |spec|
   spec.license       = 'MIT'
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 
-  spec.metadata['allowed_push_host'] = "TODO: Set to 'http://mygemserver.com'"
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = spec.homepage
+  spec.metadata['source_code_uri'] = spec.homepage
+  # spec.metadata['changelog_uri'] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   spec.files         = `git ls-files`.split("\n")
   spec.require_path  = 'lib'
