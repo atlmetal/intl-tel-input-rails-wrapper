@@ -1,5 +1,4 @@
-require_relative 'intl-tel-input/version'
-# require_relative 'lib/intl/tel/input/rails/wrapper/version'
+require_relative 'lib/intl-tel-input/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'intl-tel-input-rails-wrapper'
